@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta content="always" name="referrer"/>
+    <title>车应</title>
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+ 
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <!-- <script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=336c57b9e3679e2b1bfcb4429e2235b7"></script>
+    <script src="//webapi.amap.com/ui/1.0/main.js"></script> -->
+    <script type="text/javascript"  src="static/js/main.js"></script>
+    <script type="text/javascript" src="static/js/maps.js"></script>
+    <script>
+  // 　　(function(){
+
+  // 　　　　var html=document.documentElement;
+
+  // 　　　　var hWidth=html.getBoundingClientRect().width;
+
+  // 　　　　html.style.fontSize=hWidth/16+"px";  
+
+  // 　　})()　　
+  document.getElementsByTagName("html")[0].style.fontSize = (document.width?document.width:document.documentElement.clientWidth)*0.0375+"px";
+    </script>
+    <style>
+     
+    body>>>.amap-sug-result {
+        width: 100%;
+        height: 5rem
+    }
+    
+    </style>
+  </body>
+</html>
